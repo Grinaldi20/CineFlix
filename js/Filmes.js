@@ -12,7 +12,7 @@ imagem : "Imagens/Kung.png",
 
 {
 id : 2,    
-titulo: "Sherek",
+titulo: "Shrek",
 ano : 2004,
 genero: "Comédia",
 nota: 10,
