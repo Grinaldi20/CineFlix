@@ -93,7 +93,7 @@ imagem : "Imagens/Velozes.png",
 
 {
 id : 10,    
-titulo: "Velozes e Furiosos 2",
+titulo: "Velozes e Furiosos",
 ano : 2007,
 genero: "Ação",
 favorito: false,
