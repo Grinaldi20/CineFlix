@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineFlix</title>
+
+    <link rel="stylesheet" href="CineFlix.css">
+</head>
+<body>
+
+    <header>
+        <h1>CineFlix</h1>
+
+        <input
+            type="text"
+            placeholder="Pesquisar filme..."
+            id="Barra-Pesquisa"
+        >
+    </header>
+
+    <section class="filtros">
+
+<button id="Button" class="botao-genero" data-genero="Todos">
+    Todos
+</button>
+
+<button id="Button" class="botao-genero" data-genero="Terror">
+    Terror
+</button>
+
+<button id="Button" class="botao-genero" data-genero="Drama">
+    Drama
+</button>
+
+<button id="Button" class="botao-genero" data-genero="Ação">
+    Ação
+</button>
+
+<button id="Button" class="botao-genero" data-genero="Comédia">
+    Comédia
+</button>
+
+<button id="Button" class="botao-genero" data-genero="Ficção">
+    Ficção
+</button>
+</section>
+  
+
+<div id="Mensagem-NaoEncontrado" class="nao-encontrado">
+
+        <h2>😕 Nenhum filme encontrado</h2>
+
+        <p>Tente pesquisar outro título.</p>
+
+    </div>
+
+    <main id="Lista-Filmes" class="filmes">
+
+    </main>
+
+       <div id="mensagem" class="mensagem">
+        
+    </div>
+
+    <script src="../js/Filmes.js"></script>
+    <script src="../js/Cards.js"></script>
+    <script src="../js/Filtros.js"></script>
+
+</body>
+</html>
